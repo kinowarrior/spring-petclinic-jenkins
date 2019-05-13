@@ -1,0 +1,295 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BaseEntity	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java	/^public class BaseEntity implements Serializable {$/;"	c
+CacheConfig	src/main/java/org/springframework/samples/petclinic/system/CacheConfig.java	/^class CacheConfig {$/;"	c
+ClinicServiceTests	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^public class ClinicServiceTests {$/;"	c
+CrashController	src/main/java/org/springframework/samples/petclinic/system/CrashController.java	/^class CrashController {$/;"	c
+CrashControllerTests	src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java	/^public class CrashControllerTests {$/;"	c
+ERROR_CODE	mvnw.cmd	/^@endlocal & set ERROR_CODE=%ERROR_CODE%$/;"	v
+ERROR_CODE	mvnw.cmd	/^set ERROR_CODE=0$/;"	v
+ERROR_CODE	mvnw.cmd	/^set ERROR_CODE=1$/;"	v
+EXEC_DIR	mvnw.cmd	/^set EXEC_DIR=%CD%$/;"	v
+EntityUtils	src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java	/^public abstract class EntityUtils {$/;"	c
+JVM_CONFIG_MAVEN_PROPS	mvnw.cmd	/^@endlocal & set JVM_CONFIG_MAVEN_PROPS=%JVM_CONFIG_MAVEN_PROPS%$/;"	v
+JVM_CONFIG_MAVEN_PROPS	mvnw.cmd	/^for \/F "usebackq delims=" %%a in ("%MAVEN_PROJECTBASEDIR%\\.mvn\\jvm.config") do set JVM_CONFIG_MAVEN_PROPS=!JVM_CONFIG_MAVEN_PROPS! %%a$/;"	v
+MAVEN_CMD_LINE_ARGS	mvnw.cmd	/^set MAVEN_CMD_LINE_ARGS=%MAVEN_CONFIG% %*$/;"	v
+MAVEN_OPTS	mvnw.cmd	/^@REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000$/;"	v
+MAVEN_PROJECTBASEDIR	mvnw.cmd	/^set MAVEN_PROJECTBASEDIR=%EXEC_DIR%$/;"	v
+MAVEN_PROJECTBASEDIR	mvnw.cmd	/^set MAVEN_PROJECTBASEDIR=%MAVEN_BASEDIR%$/;"	v
+MAVEN_PROJECTBASEDIR	mvnw.cmd	/^set MAVEN_PROJECTBASEDIR=%WDIR%$/;"	v
+NamedEntity	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java	/^public class NamedEntity extends BaseEntity {$/;"	c
+OkJHome	mvnw.cmd	/^:OkJHome$/;"	l
+Owner	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^public class Owner extends Person {$/;"	c
+OwnerController	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public OwnerController(OwnerRepository clinicService) {$/;"	m	class:OwnerController
+OwnerController	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^class OwnerController {$/;"	c
+OwnerControllerTests	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^public class OwnerControllerTests {$/;"	c
+OwnerRepository	src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java	/^public interface OwnerRepository extends Repository<Owner, Integer> {$/;"	i
+Person	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^public class Person extends BaseEntity {$/;"	c
+Pet	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^public class Pet extends NamedEntity {$/;"	c
+PetClinicApplication	src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java	/^public class PetClinicApplication {$/;"	c
+PetController	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public PetController(PetRepository pets, OwnerRepository owners) {$/;"	m	class:PetController
+PetController	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^class PetController {$/;"	c
+PetControllerTests	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^public class PetControllerTests {$/;"	c
+PetRepository	src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java	/^public interface PetRepository extends Repository<Pet, Integer> {$/;"	i
+PetType	src/main/java/org/springframework/samples/petclinic/owner/PetType.java	/^public class PetType extends NamedEntity {$/;"	c
+PetTypeFormatter	src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java	/^    public PetTypeFormatter(PetRepository pets) {$/;"	m	class:PetTypeFormatter
+PetTypeFormatter	src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java	/^public class PetTypeFormatter implements Formatter<PetType> {$/;"	c
+PetTypeFormatterTests	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^public class PetTypeFormatterTests {$/;"	c
+PetValidator	src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java	/^public class PetValidator implements Validator {$/;"	c
+ProductionConfigurationTests	src/test/java/org/springframework/samples/petclinic/system/ProductionConfigurationTests.java	/^public class ProductionConfigurationTests {$/;"	c
+REQUIRED	src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java	/^    private static final String REQUIRED = "required";$/;"	f	class:PetValidator	file:
+Specialty	src/main/java/org/springframework/samples/petclinic/vet/Specialty.java	/^public class Specialty extends NamedEntity implements Serializable {$/;"	c
+TEST_OWNER_ID	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    private static final int TEST_OWNER_ID = 1;$/;"	f	class:OwnerControllerTests	file:
+TEST_OWNER_ID	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    private static final int TEST_OWNER_ID = 1;$/;"	f	class:PetControllerTests	file:
+TEST_PET_ID	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    private static final int TEST_PET_ID = 1;$/;"	f	class:PetControllerTests	file:
+TEST_PET_ID	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    private static final int TEST_PET_ID = 1;$/;"	f	class:VisitControllerTests	file:
+VIEWS_OWNER_CREATE_OR_UPDATE_FORM	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    private static final String VIEWS_OWNER_CREATE_OR_UPDATE_FORM = "owners\/createOrUpdateOwnerForm";$/;"	f	class:OwnerController	file:
+VIEWS_PETS_CREATE_OR_UPDATE_FORM	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    private static final String VIEWS_PETS_CREATE_OR_UPDATE_FORM = "pets\/createOrUpdatePetForm";$/;"	f	class:PetController	file:
+ValidatorTests	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java	/^public class ValidatorTests {$/;"	c
+Vet	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^public class Vet extends Person {$/;"	c
+VetController	src/main/java/org/springframework/samples/petclinic/vet/VetController.java	/^    public VetController(VetRepository clinicService) {$/;"	m	class:VetController
+VetController	src/main/java/org/springframework/samples/petclinic/vet/VetController.java	/^class VetController {$/;"	c
+VetControllerTests	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^public class VetControllerTests {$/;"	c
+VetRepository	src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java	/^public interface VetRepository extends Repository<Vet, Integer> {$/;"	i
+VetTests	src/test/java/org/springframework/samples/petclinic/vet/VetTests.java	/^public class VetTests {$/;"	c
+Vets	src/main/java/org/springframework/samples/petclinic/vet/Vets.java	/^public class Vets {$/;"	c
+Visit	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    public Visit() {$/;"	m	class:Visit
+Visit	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^public class Visit extends BaseEntity {$/;"	c
+VisitController	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^    public VisitController(VisitRepository visits, PetRepository pets) {$/;"	m	class:VisitController
+VisitController	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^class VisitController {$/;"	c
+VisitControllerTests	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^public class VisitControllerTests {$/;"	c
+VisitRepository	src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java	/^public interface VisitRepository extends Repository<Visit, Integer> {$/;"	i
+WDIR	mvnw.cmd	/^set WDIR=%CD%$/;"	v
+WDIR	mvnw.cmd	/^set WDIR=%EXEC_DIR%$/;"	v
+WRAPPER_JAR	mvnw.cmd	/^set WRAPPER_JAR=""%MAVEN_PROJECTBASEDIR%\\.mvn\\wrapper\\maven-wrapper.jar""$/;"	v
+WRAPPER_LAUNCHER	mvnw.cmd	/^set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain$/;"	v
+WelcomeController	src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java	/^class WelcomeController {$/;"	c
+addPet	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public void addPet(Pet pet) {$/;"	m	class:Owner
+addSpecialty	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^    public void addSpecialty(Specialty specialty) {$/;"	m	class:Vet
+addVisit	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    public void addVisit(Visit visit) {$/;"	m	class:Pet
+address	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    private String address;$/;"	f	class:Owner	file:
+baseDirFound	mvnw.cmd	/^:baseDirFound$/;"	l
+baseDirNotFound	mvnw.cmd	/^:baseDirNotFound$/;"	l
+birthDate	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    private Date birthDate;$/;"	f	class:Pet	file:
+cacheManagerCustomizer	src/main/java/org/springframework/samples/petclinic/system/CacheConfig.java	/^    public JCacheManagerCustomizer cacheManagerCustomizer() {$/;"	m	class:CacheConfig
+city	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    private String city;$/;"	f	class:Owner	file:
+concat_lines	mvnw	/^concat_lines() {$/;"	f
+createCacheConfiguration	src/main/java/org/springframework/samples/petclinic/system/CacheConfig.java	/^    private Configuration<Object, Object> createCacheConfiguration() {$/;"	m	class:CacheConfig	file:
+createValidator	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java	/^    private Validator createValidator() {$/;"	m	class:ValidatorTests	file:
+date	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    private Date date;$/;"	f	class:Visit	file:
+description	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    private String description;$/;"	f	class:Visit	file:
+end	mvnw.cmd	/^:end$/;"	l
+endDetectBaseDir	mvnw.cmd	/^:endDetectBaseDir$/;"	l
+endReadAdditionalConfig	mvnw.cmd	/^:endReadAdditionalConfig$/;"	l
+error	mvnw.cmd	/^:error$/;"	l
+findAll	src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java	/^    Collection<Vet> findAll() throws DataAccessException;$/;"	m	interface:VetRepository
+findBaseDir	mvnw.cmd	/^:findBaseDir$/;"	l
+findById	src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java	/^    Owner findById(@Param("id") Integer id);$/;"	m	interface:OwnerRepository
+findById	src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java	/^    Pet findById(Integer id);$/;"	m	interface:PetRepository
+findByLastName	src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java	/^    Collection<Owner> findByLastName(@Param("lastName") String lastName);$/;"	m	interface:OwnerRepository
+findByPetId	src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java	/^    List<Visit> findByPetId(Integer petId);$/;"	m	interface:VisitRepository
+findOwner	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public Owner findOwner(@PathVariable("ownerId") int ownerId) {$/;"	m	class:PetController
+findPetTypes	src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java	/^    List<PetType> findPetTypes();$/;"	m	interface:PetRepository
+find_maven_basedir	mvnw	/^find_maven_basedir() {$/;"	f
+firstName	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^    private String firstName;$/;"	f	class:Person	file:
+george	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    private Owner george;$/;"	f	class:OwnerControllerTests	file:
+getAddress	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public String getAddress() {$/;"	m	class:Owner
+getBirthDate	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    public Date getBirthDate() {$/;"	m	class:Pet
+getById	src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java	/^    public static <T extends BaseEntity> T getById(Collection<T> entities, Class<T> entityClass, int entityId)$/;"	m	class:EntityUtils
+getCity	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public String getCity() {$/;"	m	class:Owner
+getDate	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    public Date getDate() {$/;"	m	class:Visit
+getDescription	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    public String getDescription() {$/;"	m	class:Visit
+getFirstName	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^    public String getFirstName() {$/;"	m	class:Person
+getId	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java	/^    public Integer getId() {$/;"	m	class:BaseEntity
+getLastName	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^    public String getLastName() {$/;"	m	class:Person
+getName	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java	/^    public String getName() {$/;"	m	class:NamedEntity
+getNrOfSpecialties	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^    public int getNrOfSpecialties() {$/;"	m	class:Vet
+getOwner	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    public Owner getOwner() {$/;"	m	class:Pet
+getPet	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public Pet getPet(String name) {$/;"	m	class:Owner
+getPet	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public Pet getPet(String name, boolean ignoreNew) {$/;"	m	class:Owner
+getPetId	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    public Integer getPetId() {$/;"	m	class:Visit
+getPets	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public List<Pet> getPets() {$/;"	m	class:Owner
+getPetsInternal	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    protected Set<Pet> getPetsInternal() {$/;"	m	class:Owner
+getSpecialties	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^    public List<Specialty> getSpecialties() {$/;"	m	class:Vet
+getSpecialtiesInternal	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^    protected Set<Specialty> getSpecialtiesInternal() {$/;"	m	class:Vet
+getTelephone	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public String getTelephone() {$/;"	m	class:Owner
+getType	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    public PetType getType() {$/;"	m	class:Pet
+getVetList	src/main/java/org/springframework/samples/petclinic/vet/Vets.java	/^    public List<Vet> getVetList() {$/;"	m	class:Vets
+getVisits	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    public List<Visit> getVisits() {$/;"	m	class:Pet
+getVisitsInternal	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    protected Set<Visit> getVisitsInternal() {$/;"	m	class:Pet
+id	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java	/^    private Integer id;$/;"	f	class:BaseEntity	file:
+init	mvnw.cmd	/^:init$/;"	l
+init	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    public void init() {$/;"	m	class:VisitControllerTests
+initCreationForm	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public String initCreationForm(Map<String, Object> model) {$/;"	m	class:OwnerController
+initCreationForm	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public String initCreationForm(Owner owner, ModelMap model) {$/;"	m	class:PetController
+initFindForm	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public String initFindForm(Map<String, Object> model) {$/;"	m	class:OwnerController
+initNewVisitForm	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^    public String initNewVisitForm(@PathVariable("petId") int petId, Map<String, Object> model) {$/;"	m	class:VisitController
+initOwnerBinder	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public void initOwnerBinder(WebDataBinder dataBinder) {$/;"	m	class:PetController
+initPetBinder	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public void initPetBinder(WebDataBinder dataBinder) {$/;"	m	class:PetController
+initUpdateForm	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public String initUpdateForm(@PathVariable("petId") int petId, ModelMap model) {$/;"	m	class:PetController
+initUpdateOwnerForm	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public String initUpdateOwnerForm(@PathVariable("ownerId") int ownerId, Model model) {$/;"	m	class:OwnerController
+isNew	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java	/^    public boolean isNew() {$/;"	m	class:BaseEntity
+lastName	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^    private String lastName;$/;"	f	class:Person	file:
+loadPetWithVisit	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^    public Visit loadPetWithVisit(@PathVariable("petId") int petId, Map<String, Object> model) {$/;"	m	class:VisitController
+main	src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java	/^    public static void main(String[] args) throws Exception {$/;"	m	class:PetClinicApplication
+makePetTypes	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^    private List<PetType> makePetTypes() {$/;"	m	class:PetTypeFormatterTests	file:
+mockMvc	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    private MockMvc mockMvc;$/;"	f	class:OwnerControllerTests	file:
+mockMvc	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    private MockMvc mockMvc;$/;"	f	class:PetControllerTests	file:
+mockMvc	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    private MockMvc mockMvc;$/;"	f	class:VisitControllerTests	file:
+mockMvc	src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java	/^    private MockMvc mockMvc;$/;"	f	class:CrashControllerTests	file:
+mockMvc	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^    private MockMvc mockMvc;$/;"	f	class:VetControllerTests	file:
+name	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java	/^    private String name;$/;"	f	class:NamedEntity	file:
+org.springframework.samples.petclinic	src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java	/^package org.springframework.samples.petclinic;$/;"	p
+org.springframework.samples.petclinic.model	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java	/^package org.springframework.samples.petclinic.model;$/;"	p
+org.springframework.samples.petclinic.model	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java	/^package org.springframework.samples.petclinic.model;$/;"	p
+org.springframework.samples.petclinic.model	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^package org.springframework.samples.petclinic.model;$/;"	p
+org.springframework.samples.petclinic.model	src/main/java/org/springframework/samples/petclinic/model/package-info.java	/^package org.springframework.samples.petclinic.model;$/;"	p
+org.springframework.samples.petclinic.model	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java	/^package org.springframework.samples.petclinic.model;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/PetType.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.owner	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^package org.springframework.samples.petclinic.owner;$/;"	p
+org.springframework.samples.petclinic.service	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^package org.springframework.samples.petclinic.service;$/;"	p
+org.springframework.samples.petclinic.service	src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java	/^package org.springframework.samples.petclinic.service;$/;"	p
+org.springframework.samples.petclinic.system	src/main/java/org/springframework/samples/petclinic/system/CacheConfig.java	/^package org.springframework.samples.petclinic.system;$/;"	p
+org.springframework.samples.petclinic.system	src/main/java/org/springframework/samples/petclinic/system/CrashController.java	/^package org.springframework.samples.petclinic.system;$/;"	p
+org.springframework.samples.petclinic.system	src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java	/^package org.springframework.samples.petclinic.system;$/;"	p
+org.springframework.samples.petclinic.system	src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java	/^package org.springframework.samples.petclinic.system;$/;"	p
+org.springframework.samples.petclinic.system	src/test/java/org/springframework/samples/petclinic/system/ProductionConfigurationTests.java	/^package org.springframework.samples.petclinic.system;$/;"	p
+org.springframework.samples.petclinic.vet	src/main/java/org/springframework/samples/petclinic/vet/Specialty.java	/^package org.springframework.samples.petclinic.vet;$/;"	p
+org.springframework.samples.petclinic.vet	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^package org.springframework.samples.petclinic.vet;$/;"	p
+org.springframework.samples.petclinic.vet	src/main/java/org/springframework/samples/petclinic/vet/VetController.java	/^package org.springframework.samples.petclinic.vet;$/;"	p
+org.springframework.samples.petclinic.vet	src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java	/^package org.springframework.samples.petclinic.vet;$/;"	p
+org.springframework.samples.petclinic.vet	src/main/java/org/springframework/samples/petclinic/vet/Vets.java	/^package org.springframework.samples.petclinic.vet;$/;"	p
+org.springframework.samples.petclinic.vet	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^package org.springframework.samples.petclinic.vet;$/;"	p
+org.springframework.samples.petclinic.vet	src/test/java/org/springframework/samples/petclinic/vet/VetTests.java	/^package org.springframework.samples.petclinic.vet;$/;"	p
+org.springframework.samples.petclinic.visit	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^package org.springframework.samples.petclinic.visit;$/;"	p
+org.springframework.samples.petclinic.visit	src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java	/^package org.springframework.samples.petclinic.visit;$/;"	p
+owner	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    private Owner owner;$/;"	f	class:Pet	file:
+owners	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    private final OwnerRepository owners;$/;"	f	class:OwnerController	file:
+owners	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    private final OwnerRepository owners;$/;"	f	class:PetController	file:
+owners	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    private OwnerRepository owners;$/;"	f	class:OwnerControllerTests	file:
+owners	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    private OwnerRepository owners;$/;"	f	class:PetControllerTests	file:
+owners	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    protected OwnerRepository owners;$/;"	f	class:ClinicServiceTests
+parse	src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java	/^    public PetType parse(String text, Locale locale) throws ParseException {$/;"	m	class:PetTypeFormatter
+petId	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    private Integer petId;$/;"	f	class:Visit	file:
+petTypeFormatter	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^    private PetTypeFormatter petTypeFormatter;$/;"	f	class:PetTypeFormatterTests	file:
+pets	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    private Set<Pet> pets;$/;"	f	class:Owner	file:
+pets	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    private final PetRepository pets;$/;"	f	class:PetController	file:
+pets	src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java	/^    private final PetRepository pets;$/;"	f	class:PetTypeFormatter	file:
+pets	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^    private final PetRepository pets;$/;"	f	class:VisitController	file:
+pets	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    private PetRepository pets;$/;"	f	class:PetControllerTests	file:
+pets	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^    private PetRepository pets;$/;"	f	class:PetTypeFormatterTests	file:
+pets	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    private PetRepository pets;$/;"	f	class:VisitControllerTests	file:
+pets	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    protected PetRepository pets;$/;"	f	class:ClinicServiceTests
+populatePetTypes	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public Collection<PetType> populatePetTypes() {$/;"	m	class:PetController
+print	src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java	/^    public String print(PetType petType, Locale locale) {$/;"	m	class:PetTypeFormatter
+processCreationForm	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public String processCreationForm(@Valid Owner owner, BindingResult result) {$/;"	m	class:OwnerController
+processCreationForm	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public String processCreationForm(Owner owner, @Valid Pet pet, BindingResult result, ModelMap model) {$/;"	m	class:PetController
+processFindForm	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public String processFindForm(Owner owner, BindingResult result, Map<String, Object> model) {$/;"	m	class:OwnerController
+processNewVisitForm	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^    public String processNewVisitForm(@Valid Visit visit, BindingResult result) {$/;"	m	class:VisitController
+processUpdateForm	src/main/java/org/springframework/samples/petclinic/owner/PetController.java	/^    public String processUpdateForm(@Valid Pet pet, BindingResult result, Owner owner, ModelMap model) {$/;"	m	class:PetController
+processUpdateOwnerForm	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public String processUpdateOwnerForm(@Valid Owner owner, BindingResult result, @PathVariable("ownerId") int ownerId) {$/;"	m	class:OwnerController
+save	src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java	/^    void save(Owner owner);$/;"	m	interface:OwnerRepository
+save	src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java	/^    void save(Pet pet);$/;"	m	interface:PetRepository
+save	src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java	/^    void save(Visit visit) throws DataAccessException;$/;"	m	interface:VisitRepository
+setAddress	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public void setAddress(String address) {$/;"	m	class:Owner
+setAllowedFields	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public void setAllowedFields(WebDataBinder dataBinder) {$/;"	m	class:OwnerController
+setAllowedFields	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^    public void setAllowedFields(WebDataBinder dataBinder) {$/;"	m	class:VisitController
+setBirthDate	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    public void setBirthDate(Date birthDate) {$/;"	m	class:Pet
+setCity	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public void setCity(String city) {$/;"	m	class:Owner
+setDate	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    public void setDate(Date date) {$/;"	m	class:Visit
+setDescription	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    public void setDescription(String description) {$/;"	m	class:Visit
+setFirstName	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^    public void setFirstName(String firstName) {$/;"	m	class:Person
+setId	src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java	/^    public void setId(Integer id) {$/;"	m	class:BaseEntity
+setLastName	src/main/java/org/springframework/samples/petclinic/model/Person.java	/^    public void setLastName(String lastName) {$/;"	m	class:Person
+setName	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java	/^    public void setName(String name) {$/;"	m	class:NamedEntity
+setOwner	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    protected void setOwner(Owner owner) {$/;"	m	class:Pet
+setPetId	src/main/java/org/springframework/samples/petclinic/visit/Visit.java	/^    public void setPetId(Integer petId) {$/;"	m	class:Visit
+setPetsInternal	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    protected void setPetsInternal(Set<Pet> pets) {$/;"	m	class:Owner
+setSpecialtiesInternal	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^    protected void setSpecialtiesInternal(Set<Specialty> specialties) {$/;"	m	class:Vet
+setTelephone	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public void setTelephone(String telephone) {$/;"	m	class:Owner
+setType	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    public void setType(PetType type) {$/;"	m	class:Pet
+setVisitsInternal	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    protected void setVisitsInternal(Set<Visit> visits) {$/;"	m	class:Pet
+setup	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void setup() {$/;"	m	class:OwnerControllerTests
+setup	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    public void setup() {$/;"	m	class:PetControllerTests
+setup	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^    public void setup() {$/;"	m	class:PetTypeFormatterTests
+setup	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^    public void setup() {$/;"	m	class:VetControllerTests
+shouldAddNewVisitForPet	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldAddNewVisitForPet() {$/;"	m	class:ClinicServiceTests
+shouldFindAllPetTypes	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldFindAllPetTypes() {$/;"	m	class:ClinicServiceTests
+shouldFindOwnersByLastName	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldFindOwnersByLastName() {$/;"	m	class:ClinicServiceTests
+shouldFindPetWithCorrectId	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldFindPetWithCorrectId() {$/;"	m	class:ClinicServiceTests
+shouldFindSingleOwnerWithPet	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldFindSingleOwnerWithPet() {$/;"	m	class:ClinicServiceTests
+shouldFindVets	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldFindVets() {$/;"	m	class:ClinicServiceTests
+shouldFindVisitsByPetId	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldFindVisitsByPetId() throws Exception {$/;"	m	class:ClinicServiceTests
+shouldInsertOwner	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldInsertOwner() {$/;"	m	class:ClinicServiceTests
+shouldInsertPetIntoDatabaseAndGenerateId	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldInsertPetIntoDatabaseAndGenerateId() {$/;"	m	class:ClinicServiceTests
+shouldNotValidateWhenFirstNameEmpty	src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java	/^    public void shouldNotValidateWhenFirstNameEmpty() {$/;"	m	class:ValidatorTests
+shouldParse	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^    public void shouldParse() throws ParseException {$/;"	m	class:PetTypeFormatterTests
+shouldThrowParseException	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^    public void shouldThrowParseException() throws ParseException {$/;"	m	class:PetTypeFormatterTests
+shouldUpdateOwner	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldUpdateOwner() {$/;"	m	class:ClinicServiceTests
+shouldUpdatePetName	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    public void shouldUpdatePetName() throws Exception {$/;"	m	class:ClinicServiceTests
+showOwner	src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java	/^    public ModelAndView showOwner(@PathVariable("ownerId") int ownerId) {$/;"	m	class:OwnerController
+showResourcesVetList	src/main/java/org/springframework/samples/petclinic/vet/VetController.java	/^    public @ResponseBody Vets showResourcesVetList() {$/;"	m	class:VetController
+showVetList	src/main/java/org/springframework/samples/petclinic/vet/VetController.java	/^    public String showVetList(Map<String, Object> model) {$/;"	m	class:VetController
+skipRcPost	mvnw.cmd	/^:skipRcPost$/;"	l
+skipRcPre	mvnw.cmd	/^:skipRcPre$/;"	l
+specialties	src/main/java/org/springframework/samples/petclinic/vet/Vet.java	/^    private Set<Specialty> specialties;$/;"	f	class:Vet	file:
+supports	src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java	/^    public boolean supports(Class<?> clazz) {$/;"	m	class:PetValidator
+telephone	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    private String telephone;$/;"	f	class:Owner	file:
+testFindAll	src/test/java/org/springframework/samples/petclinic/system/ProductionConfigurationTests.java	/^    public void testFindAll() throws Exception {$/;"	m	class:ProductionConfigurationTests
+testInitCreationForm	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testInitCreationForm() throws Exception {$/;"	m	class:OwnerControllerTests
+testInitCreationForm	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    public void testInitCreationForm() throws Exception {$/;"	m	class:PetControllerTests
+testInitFindForm	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testInitFindForm() throws Exception {$/;"	m	class:OwnerControllerTests
+testInitNewVisitForm	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    public void testInitNewVisitForm() throws Exception {$/;"	m	class:VisitControllerTests
+testInitUpdateForm	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    public void testInitUpdateForm() throws Exception {$/;"	m	class:PetControllerTests
+testInitUpdateOwnerForm	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testInitUpdateOwnerForm() throws Exception {$/;"	m	class:OwnerControllerTests
+testPrint	src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java	/^    public void testPrint() {$/;"	m	class:PetTypeFormatterTests
+testProcessCreationFormHasErrors	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testProcessCreationFormHasErrors() throws Exception {$/;"	m	class:OwnerControllerTests
+testProcessCreationFormHasErrors	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    public void testProcessCreationFormHasErrors() throws Exception {$/;"	m	class:PetControllerTests
+testProcessCreationFormSuccess	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testProcessCreationFormSuccess() throws Exception {$/;"	m	class:OwnerControllerTests
+testProcessCreationFormSuccess	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    public void testProcessCreationFormSuccess() throws Exception {$/;"	m	class:PetControllerTests
+testProcessFindFormByLastName	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testProcessFindFormByLastName() throws Exception {$/;"	m	class:OwnerControllerTests
+testProcessFindFormNoOwnersFound	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testProcessFindFormNoOwnersFound() throws Exception {$/;"	m	class:OwnerControllerTests
+testProcessFindFormSuccess	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testProcessFindFormSuccess() throws Exception {$/;"	m	class:OwnerControllerTests
+testProcessNewVisitFormHasErrors	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    public void testProcessNewVisitFormHasErrors() throws Exception {$/;"	m	class:VisitControllerTests
+testProcessNewVisitFormSuccess	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    public void testProcessNewVisitFormSuccess() throws Exception {$/;"	m	class:VisitControllerTests
+testProcessUpdateFormHasErrors	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    public void testProcessUpdateFormHasErrors() throws Exception {$/;"	m	class:PetControllerTests
+testProcessUpdateFormSuccess	src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java	/^    public void testProcessUpdateFormSuccess() throws Exception {$/;"	m	class:PetControllerTests
+testProcessUpdateOwnerFormHasErrors	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testProcessUpdateOwnerFormHasErrors() throws Exception {$/;"	m	class:OwnerControllerTests
+testProcessUpdateOwnerFormSuccess	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testProcessUpdateOwnerFormSuccess() throws Exception {$/;"	m	class:OwnerControllerTests
+testSerialization	src/test/java/org/springframework/samples/petclinic/vet/VetTests.java	/^    public void testSerialization() {$/;"	m	class:VetTests
+testShowOwner	src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java	/^    public void testShowOwner() throws Exception {$/;"	m	class:OwnerControllerTests
+testShowResourcesVetList	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^    public void testShowResourcesVetList() throws Exception {$/;"	m	class:VetControllerTests
+testShowVetListHtml	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^    public void testShowVetListHtml() throws Exception {$/;"	m	class:VetControllerTests
+testShowVetListXml	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^    public void testShowVetListXml() throws Exception {$/;"	m	class:VetControllerTests
+testTriggerException	src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java	/^    public void testTriggerException() throws Exception {$/;"	m	class:CrashControllerTests
+toString	src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java	/^    public String toString() {$/;"	m	class:NamedEntity
+toString	src/main/java/org/springframework/samples/petclinic/owner/Owner.java	/^    public String toString() {$/;"	m	class:Owner
+triggerException	src/main/java/org/springframework/samples/petclinic/system/CrashController.java	/^    public String triggerException() {$/;"	m	class:CrashController
+type	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    private PetType type;$/;"	f	class:Pet	file:
+validate	src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java	/^    public void validate(Object obj, Errors errors) {$/;"	m	class:PetValidator
+vets	src/main/java/org/springframework/samples/petclinic/vet/VetController.java	/^    private final VetRepository vets;$/;"	f	class:VetController	file:
+vets	src/main/java/org/springframework/samples/petclinic/vet/Vets.java	/^    private List<Vet> vets;$/;"	f	class:Vets	file:
+vets	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    protected VetRepository vets;$/;"	f	class:ClinicServiceTests
+vets	src/test/java/org/springframework/samples/petclinic/system/ProductionConfigurationTests.java	/^    private VetRepository vets;$/;"	f	class:ProductionConfigurationTests	file:
+vets	src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java	/^    private VetRepository vets;$/;"	f	class:VetControllerTests	file:
+visits	src/main/java/org/springframework/samples/petclinic/owner/Pet.java	/^    private Set<Visit> visits = new LinkedHashSet<>();$/;"	f	class:Pet	file:
+visits	src/main/java/org/springframework/samples/petclinic/owner/VisitController.java	/^    private final VisitRepository visits;$/;"	f	class:VisitController	file:
+visits	src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java	/^    private VisitRepository visits;$/;"	f	class:VisitControllerTests	file:
+visits	src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java	/^    protected VisitRepository visits;$/;"	f	class:ClinicServiceTests
+welcome	src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java	/^    public String welcome() {$/;"	m	class:WelcomeController
